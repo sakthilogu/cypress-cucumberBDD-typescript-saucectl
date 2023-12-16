@@ -1,0 +1,27 @@
+Sauce Cypress Runner 10.3.0
+Running Cypress 12.14.0
+Preparing npm environment
+Finished
+Detected node_modules, running npm rebuilding.
+
+Rebuilding packages:
+npm ERR! code 1
+npm ERR! path /Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/__project__/node_modules/esbuild
+npm ERR! command failed
+npm ERR! command sh -c node install.js
+npm ERR! /Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/__project__/node_modules/esbuild/install.js:132
+npm ERR!     throw new Error(`Expected ${JSON.stringify(versionFromPackageJSON)} but got ${JSON.stringify(stdout)}`);
+npm ERR!           ^
+npm ERR! 
+npm ERR! Error: Expected "0.19.9" but got "0.17.18"
+npm ERR!     at validateBinaryVersion (/Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/__project__/node_modules/esbuild/install.js:132:11)
+npm ERR!     at /Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/__project__/node_modules/esbuild/install.js:285:5
+npm ERR! 
+npm ERR! Node.js v18.16.0
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/chef/.npm/_logs/2023-12-16T10_30_47_294Z-debug-0.log
+Error: Unable to locate the cypress config file. Looked for '/Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/__project__/cypress.config.js'.
+    at getCypressOpts (/Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/lib/cypress-runner.js:110:15)
+    at cypressRunner (/Volumes/Sauce/saucectl-runners/sauce-cypress-runner/10.3.0/bundle/lib/cypress-runner.js:188:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
